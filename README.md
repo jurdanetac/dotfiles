@@ -8,7 +8,6 @@ Personal configuraton files for my Mac, managed with GNU Stow. Under continuous 
 ![Homebrew](https://img.shields.io/badge/Homebrew-FBB040?style=for-the-badge&logo=homebrew&logoColor=black)
 ![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=for-the-badge&logo=zsh&logoColor=white)
 ![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
-![Zed](https://img.shields.io/badge/Zed-000000?style=for-the-badge&logo=zedindustries&logoColor=white)
 
 ## List of configs
 - Apple Shortcuts (macOS/iOS)
@@ -17,19 +16,18 @@ Personal configuraton files for my Mac, managed with GNU Stow. Under continuous 
 - Homebrew
 - Zsh / Oh My Zsh!
 - Vim
-- Zed
 
 ## Usage
 ### Install config
 ```
 $ git clone git@github.com:jurdanetac/dotfiles.git ~/dotfiles
 $ cd ~/dotfiles
-$ stow emacs git homebrew zsh vim zed
+$ stow emacs git homebrew zsh vim
 ```
 ### Uninstall config
 ```
 $ cd ~/dotfiles
-$ stow -D emacs git homebrew zsh vim zed
+$ stow -D emacs git homebrew zsh vim
 ```
 ### Homebrew
 [Install config](#install-config) and then run:
