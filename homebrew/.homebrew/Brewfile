@@ -28,3 +28,11 @@ cask "iterm2"
 cask "stats"
 # Open-source BitTorrent client
 cask "transmission"
+# Open-source code editor
+cask "visual-studio-code"
+vscode "jdinhlife.gruvbox"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "vscodevim.vim"
