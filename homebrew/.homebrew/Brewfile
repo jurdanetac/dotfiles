@@ -6,34 +6,22 @@ brew "ansible"
 brew "bat"
 # Modern, maintained replacement for ls
 brew "eza"
-# Interactive computing in Python
-brew "ipython"
-# Media player based on MPlayer and mplayer2
-brew "mpv"
+# Deep clean and optimize your Mac
+brew "mole"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
 brew "opentofu"
-# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
-brew "prettier"
-# Ruby version manager
-brew "rbenv"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Hunt down social media accounts by username
 brew "sherlock"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
-# Formatting tool for reformatting Swift code
-brew "swiftformat"
 # Sends magic packets to wake up network-devices
 brew "wakeonlan"
 # Extensible command-line tool to format YAML files
 brew "yamlfmt"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
-# Native desktop AI assistant from Google
-cask "google-gemini"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
 # Clipboard manager
 cask "maccy"
 # Music streaming service
@@ -44,7 +32,8 @@ cask "stats"
 cask "telegram"
 # Open-source BitTorrent client
 cask "transmission"
+# Open-source code editor
+cask "visual-studio-code"
 # Native desktop client for WhatsApp
 cask "whatsapp"
-# Video communication and virtual meeting platform
-cask "zoom"
+vscode "vscodevim.vim"
