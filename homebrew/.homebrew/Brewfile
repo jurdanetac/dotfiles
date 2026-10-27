@@ -6,6 +6,8 @@ brew "ansible"
 brew "bat"
 # Modern, maintained replacement for ls
 brew "eza"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
 # Deep clean and optimize your Mac
 brew "mole"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
@@ -20,6 +22,8 @@ brew "stow"
 brew "wakeonlan"
 # Extensible command-line tool to format YAML files
 brew "yamlfmt"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
 # Clipboard manager
@@ -34,6 +38,12 @@ cask "telegram"
 cask "transmission"
 # Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
 # Native desktop client for WhatsApp
 cask "whatsapp"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
 vscode "vscodevim.vim"
